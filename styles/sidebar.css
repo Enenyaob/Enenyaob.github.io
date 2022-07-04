@@ -31,8 +31,9 @@
 }
 @media(min-width: 1200px){
   .sidebar-link{
-    height: 74px;
+    height: 70px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     margin-top: 12px;
   }

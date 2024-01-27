@@ -28,12 +28,16 @@ body{
  .sec1{
   margin-top: 50px;
   margin-bottom: 70px;
+  padding: 0px;
 } 
+@media(max-width: 750px){
+  .sec1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
 .note1{
   margin-top: 10px;
-  /* width: 620px;
-  height: 358px; */
-  /* background-color: lightblue; */
 }
 .note1 div{
   font-size: 25px;
@@ -67,7 +71,7 @@ body{
 }
 @media(max-width: 750px){
   .note1 p{
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
   }
 }
@@ -98,8 +102,9 @@ body{
 }
 @media(max-width: 752px){
   .note3 div{
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 30px;
+    color: #ffff;
   }
 }
 .note3 div span{
@@ -113,7 +118,7 @@ body{
 .note3 p{
   font-size: 18px;
   color: #ffff;
-  text-align: justify;
+  text-align:justify;
   line-height: 30px;
 }
 @media(max-width: 991px){
@@ -125,7 +130,9 @@ body{
 @media(max-width: 750px){
   .note3 p{
     font-size: 15px;
-    line-height: 20px;
+    line-height: 18px;
+    text-align: justify;
+    margin-bottom: 10px;
   }
 }
 .note3 ul{
@@ -136,6 +143,7 @@ body{
 @media(max-width: 750px){
   .note3 ul{
     color: #ffff;
+    padding-left: 20px;
   }
 }
 .wide img{
@@ -150,7 +158,12 @@ body{
   height: auto;
   padding: 100px 20px;
 }
-
+@media(max-width: 750px){
+  .bg{
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
 .link-btn{
   margin-top: 120px;
 }

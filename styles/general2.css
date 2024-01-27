@@ -11,8 +11,13 @@ body{
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
+@media(max-width: 750px){
+  .d-block{
+    height: 250px;
+  }
+}
 .hero{
-  height: 250px;
+  height: 2700px;
   width: 100%;
   background-color: rgba(180, 178, 178, 0.685);
   display: flex;
